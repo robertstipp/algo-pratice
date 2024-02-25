@@ -1,4 +1,4 @@
-const { longestWord } = require("../challenges/circularLinkedList.js");
+const { longestWord } = require("../challenges/longestWord.js");
 
 describe("longest word", () => {
   it("Function should return empty string if lists is empty", () => {
