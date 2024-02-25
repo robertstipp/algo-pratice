@@ -1,0 +1,15 @@
+{
+  "name": "algo-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-algo": "bash ./scripts/run-test.sh"
+  },
+  "author": "Bobby Stipp",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
