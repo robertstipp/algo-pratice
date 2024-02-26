@@ -1,6 +1,6 @@
 const { threeSum } = require('../challenges/threeSum');
 
-// Sort Function
+// Sort Function for Correct Answers in Different Order
 const sortResult = (result) => {
   for (const combination of result) {
     combination.sort((a, b) => a - b);
@@ -25,5 +25,10 @@ describe('three sum', () => {
   it(`Function should handle an all 0's array`, () => {
     const arr = [0, 0, 0];
     expect(threeSum(arr)).toEqual([[0, 0, 0]]);
+  });
+
+  it(`Function should return empty array when there are no combinations`, () => {
+    const arr = [0, 1, 1];
+    expect(threeSum(arr)).toEqual([]);
   });
 });
