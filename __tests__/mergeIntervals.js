@@ -38,7 +38,7 @@ describe("merge intervals", () => {
       expected: [[-10000, 10000]],
     },
   ])(
-    "should return array with duplicates removed $expected from $intervals",
+    "should return array with merged intervals $expected from $intervals",
     ({ intervals, expected }) => {
       const result = mergeIntervals(intervals);
 
