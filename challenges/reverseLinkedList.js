@@ -16,16 +16,6 @@
 //   }
 // }
 
-function reverseLinkedList(head) {
-  if (head === null || head.next === null) {
-    return head;
-  }
-
-  const reversedListHead = reverseLinkedList(head.next);
-  head.next.next = head;
-  head.next = null;
-
-  return reversedListHead;
-}
+function reverseLinkedList(head) {}
 
 module.exports = { reverseLinkedList };
