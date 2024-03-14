@@ -14,7 +14,6 @@ Example 1:
 Input: "abc"
 Output: 3
 Explanation: Three palindromic strings: "a", "b", "c".
- 
 
 Example 2:
 
