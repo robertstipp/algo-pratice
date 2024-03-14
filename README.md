@@ -5,12 +5,11 @@
 ### Choose a challenge and start writing!
 
 # TESTING
-## WINDOWS USERS USE COMMAND MINUS BRACKETS AND NO .js EXTENSION:
+### WINDOWS USERS USE COMMAND MINUS BRACKETS AND NO .js EXTENSION:
 ### npm run test [nameOfAlgorithm]
 
-## LINUX/MACOS USERS USE COMMAND MINUS BRACKETS:
+### LINUX/MACOS USERS USE COMMAND MINUS BRACKETS:
 ### npm run test-algo [nameOfAlgorithm]
 
 # CONTRIBUTING
-##
 ###
